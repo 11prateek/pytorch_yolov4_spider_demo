@@ -1,0 +1,48 @@
+The code used in this repository has been adapted from the following repository:
+https://github.com/Tianxiaomo/pytorch-YOLOv4
+
+The following files were changed from the original repository:
+
+deleted:    DeepStream/Readme.md
+deleted:    DeepStream/config_infer_primary_yoloV4.txt
+deleted:    DeepStream/deepstream_app_config_yoloV4.txt
+deleted:    DeepStream/labels.txt
+deleted:    DeepStream/nvdsinfer_custom_impl_Yolo/Makefile
+deleted:    DeepStream/nvdsinfer_custom_impl_Yolo/Readme.md
+deleted:    DeepStream/nvdsinfer_custom_impl_Yolo/kernels.cu
+deleted:    DeepStream/nvdsinfer_custom_impl_Yolo/nvdsinfer_yolo_engine.cpp
+deleted:    DeepStream/nvdsinfer_custom_impl_Yolo/nvdsparsebbox_Yolo.cpp
+deleted:    DeepStream/nvdsinfer_custom_impl_Yolo/trt_utils.cpp
+deleted:    DeepStream/nvdsinfer_custom_impl_Yolo/trt_utils.h
+deleted:    DeepStream/nvdsinfer_custom_impl_Yolo/yolo.cpp
+deleted:    DeepStream/nvdsinfer_custom_impl_Yolo/yolo.h
+deleted:    DeepStream/nvdsinfer_custom_impl_Yolo/yoloPlugins.cpp
+deleted:    DeepStream/nvdsinfer_custom_impl_Yolo/yoloPlugins.h
+deleted:    README.md
+deleted:    Use_yolov4_to_train_your_own_data.md
+modified:   cfg.py
+deleted:    cfg/yolov3-tiny.cfg
+deleted:    cfg/yolov3.cfg
+deleted:    cfg/yolov4-custom.cfg
+deleted:    cfg/yolov4-tiny.cfg
+deleted:    cfg/yolov4.cfg
+deleted:    data/coco.names
+deleted:    data/dog.jpg
+deleted:    data/giraffe.jpg
+deleted:    data/prediction.jpg
+deleted:    data/voc.names
+modified:   dataset.py
+deleted:    demo.py
+deleted:    demo_darknet2onnx.py
+deleted:    demo_pytorch2onnx.py
+deleted:    demo_tensorflow.py
+deleted:    demo_trt.py
+deleted:    evaluate_on_coco.py
+deleted:    requirements.txt
+deleted:    tool/camera.py
+deleted:    tool/darknet2onnx.py
+deleted:    tool/darknet2pytorch.py
+deleted:    tool/onnx2tensorflow.py
+modified:   tool/utils.py
+modified:   tool/yolo_layer.py
+modified:   train.py

@@ -1,0 +1,16 @@
+*.pyc
+*~
+**/*.ipynb_checkpoints
+*.pt
+*.pth
+*.csv
+*.DS_store
+*.npz
+data/
+*.pkl
+*.png
+*.jpg
+btest*/*
+log/*
+*.json
+*.vott
