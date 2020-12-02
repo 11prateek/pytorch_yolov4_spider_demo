@@ -4,8 +4,8 @@ This is a quick, little experiment I did for fun where I trained YOLOv4 on image
 
 I used the [PyTorch implementation of YOLOv4 by TianXiaomo](https://github.com/Tianxiaomo/pytorch-YOLOv4).
 
-The image set was split roughly into 76:12:12 for train:val:test. For simplicity's sake, I removed images which had more than 5 spiders. 
-Test results:
+The image set was split roughly into 76:12:12 for train:val:test. For simplicity's sake, I removed images which had more than 5 spiders.
+Preliminary test results:
 
 ```
 Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.366
